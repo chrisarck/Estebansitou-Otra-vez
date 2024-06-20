@@ -1,0 +1,66 @@
+---
+import Header from '../components/header.astro';
+import Inicio from './inicio.astro'
+import Piedepagina from './piedepagina.astro';
+import Presentacion from './presentacion.astro';
+import Grupo from './grupo.astro'
+import Introduccion from './introduccion.astro';
+import PreXteam from './preXteam.astro';
+
+
+---
+<html lang="es">
+  <head>
+	<meta charset="UTF-8">
+    <title>Proyecto Aula</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+</head>
+  <body>
+	<Header/>
+	<div class="inicio">
+		<Inicio/>
+	</div>
+	<div class="relleno">
+	</div>
+	<Introduccion/>
+	<PreXteam/>
+	<Presentacion/>
+	<Grupo/>
+	<Piedepagina/>
+	<style>
+		.inicio{
+			position: absolute;
+			z-index: 500;
+		}
+		html{
+    scroll-behavior: smooth;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+		.cover{
+			width: 100lvw;
+			height: 100vh;
+			background: gray;
+		}
+		body{
+			margin: 0;
+			background-color: rgb(253, 216, 173);
+		}
+		h1{
+			margin: 0;
+		}
+		.relleno{
+			height: 100vh;
+			width: auto;
+		}
+	</style>
+	<script>
+		import AOS from "aos";
+		AOS.init();
+	</script>
+  </body>
+</html>

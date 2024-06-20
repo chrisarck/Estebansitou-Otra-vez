@@ -1,0 +1,58 @@
+---
+---
+<div class="cover" data-aos="zoom-out" data-aos-duration="400000">
+    <h1>Proyecto Aula</h1>
+    <div>
+        <h2>Tutor: Esteban Ayala Peña</h2>
+
+        <div class="row">
+            <h3>Grupo: 4IM6</h3>
+            <h3>20/Junio/2024</h3>       
+        </div>
+    </div>
+</div>
+<style>
+    h1{
+        font-size: 10em;
+        margin: 0;
+    }
+    h1, h2, h3 {
+        transition: all 0.1s ease-in-out;
+
+    }
+    h1:hover, h2:hover, h3:hover {
+  transform: scale(1.04) rotate(1deg);
+  cursor: pointer;
+}
+    h2{
+        font-size: 4em;
+        margin: 0;
+    }
+    h3{
+        font-size: 3em;
+        margin: 0;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .cover{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        color: white; /* Asegura que el texto sea legible sobre un fondo oscuro */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #69d0ff, #ee8282,#eece82);
+        background-size: 1200% 1200%;
+        animation: Gradient 5s ease infinite;
+    }
+    @keyframes Gradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+</style>

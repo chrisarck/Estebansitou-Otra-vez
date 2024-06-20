@@ -1,0 +1,91 @@
+---
+interface Props {
+    title?: string,
+    numEquipo?: string,
+    integrante1?:string,
+    integrante2?:string,
+    integrante3?:string,
+    integrante4?:string,
+    integrante5?:string,
+    integrante6?:string,
+    integrante7?:string,
+}
+const {title="Default title", integrante1, integrante2, integrante3, integrante4, integrante5, integrante6, integrante7, numEquipo} = Astro.props;
+---
+
+<div class="cuadrado">
+    <a href={`/Equipo ${numEquipo} - Presentacion.pdf`}>
+
+        <img src="fondo1.jpg" alt="Descripción de la imagen">
+        <h3>Equipo {numEquipo}</h3>
+        <div class="texto">
+            <ul>
+                <li>{integrante1}</li>
+                <li>{integrante2}</li>
+                <li>{integrante3}</li>
+                <li>{integrante4}</li>
+                <li>{integrante5}</li>
+                <li>{integrante6}</li>
+                <li>{integrante7}</li>
+            </ul>
+        </div>
+    </a>
+</div>
+
+<style>
+.cuadrado {
+ background: linear-gradient(135deg, #6767685d 0%, #1b1b1fd9 70%);
+ border-radius: 50px;
+ width: 650px;
+ overflow: hidden;
+ height: 900px;
+ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ position: relative;
+ z-index: 2;
+ margin: 0;
+ box-shadow: ;
+}
+
+a{
+    text-decoration: none;
+}
+.cuadrado img {
+ width: 100%;
+ height: 50%;
+ object-fit: cover;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p{
+    padding: 0;
+}
+ul{
+    margin: 0;
+    text-align: none;
+    list-style: none;
+}
+.cuadrado .texto {
+ font-size: 35px;
+ padding: 1em;
+ padding-top: 0;
+ height: 50%;
+ display: flex;
+ justify-content: baseline;
+ color: white;
+}
+
+.cuadrado:hover {
+ transform: scale(0.95);
+ cursor: pointer;
+ box-shadow: 0 0 50px rgb(255, 247, 232);
+}
+
+h3 {
+ font-size: 3em;
+ color: white;
+ margin: 0;
+}
+ </style>

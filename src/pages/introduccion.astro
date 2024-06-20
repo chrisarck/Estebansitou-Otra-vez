@@ -1,0 +1,435 @@
+---
+
+---
+<div class="main">
+    
+    <div class="container">
+        <div class="intro-text">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+            <link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
+
+            <p>.</p><p></p>
+            <p></p><p></p>
+            <p></p><p></p>
+            <p></p><p></p><p></p><p></p><p></p><p>.</p>
+            <h1 class="animated-paragraph">Bienvenidos a la Guía de Usuario de Problemas de Sistemas Operativos</h1>
+            <p>En esta guía, encontrarás soluciones detalladas y prácticas para los problemas más comunes que
+             enfrentan los usuarios de sistemas operativos. Nuestro objetivo es proporcionar un recurso accesible
+              y útil para ayudarte a resolver dificultades técnicas de manera eficiente, ya sea que utilices Windows,
+               macOS, Linux u otros sistemas operativos.</p>
+        </div>
+        <div class="images">
+            <img src="linux.jpg" alt="Imagen 1" class="image-left">
+            <img src="windows.jpg" alt="Imagen 2" class="image-right">
+            <img src="macos.jpg" alt="Imagen 3" class="image-left">
+        </div>
+    </div>
+</div>
+
+<div class="main2">
+
+    <div class="container">
+        <div class="intro-text">
+            <button class="btn">¿QUE OFRECEMOS?</button>
+            <div class="row left">
+                <div class="text">
+                    <p>Soluciones Paso a Paso: Instrucciones claras y fáciles de seguir para resolver problemas frecuentes.</p>
+                </div>
+                <div class="image">
+                    <img src="soluciones.jpeg">
+                </div>
+            </div>
+            <div class="row right">
+                <div class="text">
+                    <p>Recursos Multimedia: Videos y presentaciones realizados por nuestro equipo, que explican y demuestran cómo abordar diferentes problemas.</p>
+                </div>
+                <div class="image">
+                    <img src="multimedia.jpg">
+                </div>
+            </div>
+            <div class="row left">
+                <div class="text">
+                    <p>Guía Visual: Capturas de pantalla y tutoriales en video para una comprensión más completa.</p>
+                </div>
+                <div class="image">
+                    <img src="visual.jpg">
+                </div>
+            </div>
+            <div class="row right">
+                <div class="text">
+                    <p>Soporte Multiplataforma: Información específica para distintos sistemas operativos, adaptada a las necesidades de cada usuario.</p>
+                </div>
+                <div class="image">
+                    <img src="multiplataforma.jpg">
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+</div>
+
+<div class="main3">
+
+    <div class="background-section">
+        <div class="centered-text">
+            
+            <h1>Nuestro equipo está compuesto por estudiantes apasionados de la tecnología, guiados por nuestro tutor, 
+                comprometidos en hacer que tu experiencia con los sistemas operativos sea lo más fluida y libre de problemas 
+                posible. Explora nuestras secciones, aprende con nosotros y encuentra la solución que necesitas.</h1>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+
+
+
+.main1{
+    margin: 0;
+    padding: 100px;
+    background: rgb(203, 203, 203);
+    display: grid;
+    grid-template-columns: 2;
+    background: url('atura.jpg') no-repeat center center/cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main2{
+    margin: 0;
+    padding: 100px;
+    background: rgb(203, 203, 203);
+    display: grid;
+    grid-template-columns: 2;
+    background: url('cerebroazul.jpg') no-repeat center center/cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main3{
+    margin: 0;
+    padding: 100px;
+    background: rgb(203, 203, 203);
+    display: grid;
+    grid-template-columns: 2;
+    background: url('aiverde.jpg') no-repeat center center/cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    
+    display: flex;
+    max-width: 100%;
+    margin: 50px auto;
+    background: url('compu.jpg') no-repeat center center/cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0);
+
+}
+
+
+.animated-paragraph {
+    font-size: 1.5em;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animated-paragraph:hover {
+    color: #fff;
+    background-color: #B9B9B7 ;
+    transform: scale(0.99);
+    border-color: #252525 ;
+}
+
+.intro-text {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(135deg, #676768 0%, #1b1b1f 100%);
+    border-right: 2px solid #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.intro-text h1 {
+   
+    color: #333;
+    font-size: 60px;
+}
+
+.intro-text p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    color: #B9B9B7;
+    line-height: 1.6;
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.images img {
+    max-width: 50%;
+    margin: 10px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-left {
+    border-radius: 30px;
+    align-self: flex-start;
+}
+
+.image-right {
+    border-radius: 30px;
+    align-self: flex-end;
+}
+
+.row {
+    font-size:70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+
+
+
+
+
+
+
+
+
+        .row img{
+            border-radius:50px;
+            width:100%;
+            height: auto;
+        
+        transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        .left {
+            font-size:70px;
+            flex-direction: row;
+        }
+        .right {
+            font-size:70px;
+            flex-direction: row-reverse;
+        }
+        .text {
+        
+            width: 70%;
+        }
+
+        
+
+        .text p {
+        
+            font-size:35px;
+         
+    background: linear-gradient(45deg, #E8E0E0, #482D5B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+.text p:hover {
+    background: linear-gradient(45deg, #482D5B, #E8E0E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+    border-color: #F0EEF1;
+}
+        .image {
+            font-size:70px;
+            width: 25%;
+            height: 100px; /* Adjust as needed */
+            background-color: #f0f0f0; /* Placeholder for the image */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .background-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('edificiogobierno.jpg') no-repeat center center/cover;
+    border-radius:50px;
+    box-shadow: inset 0 0 0 1000px rgba(2, 2, 2, 0.5);
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+
+.centered-text h1 {
+    text-align: justify;
+    font-size: 3em;
+    color: #333;
+    background: linear-gradient(45deg, #AAAAAA, #F8F8F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centered-text h1:hover {
+    background: linear-gradient(45deg, #F8F8F8, #AAAAAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+    border-color: #F8F8F8;
+}
+
+.btn {
+  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+  --border-width: 0.125em;
+  --curve-size: 0.5em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+  color: var(--color);
+  cursor: pointer;
+  /* use position: relative; so that BG is only for .btn */
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  place-content: center;
+  padding: 0.5em 1.5em;
+  font-size: 17px;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  clip-path: polygon(
+    /* Top-left */ 0% var(--curve-size),
+    var(--curve-size) 0,
+    /* top-right */ 100% 0,
+    100% calc(100% - var(--curve-size)),
+    /* bottom-right 1 */ calc(100% - var(--curve-size)) 100%,
+    /* bottom-right 2 */ 0 100%
+  );
+  transition: color 250ms;
+}
+
+.btn::after,
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.btn::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+
+  50% {
+    background-position: 70% 100%;
+  }
+
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+.btn::after {
+  background: var(--bg);
+  z-index: -1;
+  clip-path: polygon(
+    /* Top-left */ var(--border-width)
+      calc(var(--curve-size) + var(--border-width) * 0.5),
+    calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
+    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
+    calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    /* bottom-right 1 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+    /* bottom-right 2 */ var(--border-width) calc(100% - var(--border-width))
+  );
+  transition: clip-path 500ms;
+}
+
+.btn:where(:hover, :focus)::after {
+  clip-path: polygon(
+    /* Top-left */ calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    calc(100% - var(--border-width)) var(--border-width),
+    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
+    calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    /* bottom-right 1 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+    /* bottom-right 2 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width))
+  );
+  transition: 200ms;
+}
+
+.btn:where(:hover, :focus) {
+  color: #fff;
+}
+
+
+</style>

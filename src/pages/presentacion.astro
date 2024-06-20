@@ -1,0 +1,43 @@
+---
+import Snow from '../components/snow.astro'
+import Card from '../components/card.astro'
+---
+<Snow/>
+<section class ="presen" id="presentacion">
+    <h2>Presentaciones</h2>
+
+    <div class="presentaciones" id="presentaciones">
+        <Card numEquipo='1' integrante1='Valencia Oropeza Angel Yahir' integrante2="Castro Aguilar Eder Joel" integrante3="Martinez Peñafiel Adrian Fernand" integrante4="Rosales Terrazas Edwar Rafael" integrante5="Contreras Cruz Joseph" integrante6="Infante Ruiz Said Abdael"/>
+        <Card numEquipo='2' integrante1='Olvera Murillo Melissa' integrante2="Sanchez Rodriguez Dulce" integrante3="Sanchez Zenil Maria Fernanda" integrante4="Soto Carranza Vanya" integrante5="Zavala Flores Astrid" integrante6="Sanchez Monroy Angela Jareth"/> 
+        <Card numEquipo='3'  integrante1='Alva de la Cruz Joel David' integrante2="Cabrera Juarez Mariana Elizabeth" integrante3="Diaz Cadena Erick Josue" integrante4="Ortiz Ortiz Isaac" integrante5="Pacheco Gil Ximena Maxime" integrante6="Rodriguez Padilla Mariana Lizeth"/>
+        <Card numEquipo='4'  integrante1='Gurrola Sanchez Alejandra' integrante2="Estrada Martinez Fernanda" integrante3="Mendoza Gutierres Carlos Alberto" integrante4="Casquera Ruiz Sared" integrante5="Ramirez Salazar Angel Guillermo" integrante6="Bobadilla Olivares Hiromi" integrante7="Cardiel Reyes Luis Angel"/>
+        <Card numEquipo='5'  integrante1='Camacho Meza Karla Romina' integrante2="Cen Lubiano Melanie Jocelyn" integrante3="Gamiz Franco Viridiana" integrante4="Gutierrez Hernandez Milagros Denisse" integrante5="Morales Gomez Luis Raul" integrante6="Vazquez Martinez Jessica"/>
+        <Card numEquipo='6'  integrante1='Alvarez Melgoza Mario Alberto' integrante2="Betanzos Patiño Isabella" integrante3="Peralta Gomez Jose Matias" integrante4="Ruiz del Olmo Viridiana" integrante5="Sanchez Hernandez Yurem" integrante6="Solares Morales Bryan Alexander"/>
+        <Card numEquipo='7'  integrante1='Delgado Andrade Cristian Antonio' integrante2="Flores Rivera Juan Manuel" integrante3="Guadarrama Gonzalez Ian Rodrigo" integrante4="Hernandez Tellez Hector Fidel" integrante5="Martinez Maciel Evan Alexander" integrante6="Pineda Salgado Luis Angel"/>
+        <Card numEquipo='8'  integrante1='Bernal Ruiz Melanie' integrante2="Carmona Vazquez Diana" integrante3="Oseguera Esquivel Iker Elias" integrante4="Ramirez Cervantes Santiago" integrante5="Rios Abad Roberto Carlos" integrante6="Rivero Flores Victor Gabriel"/>
+        <Card numEquipo='9'  integrante1='Valencia Vazquez Yaidan Leao' integrante2="Garfias Cruz Ximena Getsemani" integrante3="De la Cruz Flores Karla" integrante4="Martinez Diaz Hector Rodrigo" integrante5="Guerrero Reyes Dulce Yohana"/>
+        <Card numEquipo='10'  integrante1='Carreño Sanchez Luis Angel' integrante2="Valencia Perez Pamela Adamari"/>
+    </div>
+</section>
+    <style>
+       .presentaciones {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    max-width: 100vw;
+    z-index: 2;
+    position: relative;
+}
+.presen{
+ padding: 0 20px;
+}
+.presen h2 {
+ font-size: 7em;
+ margin: 0px;
+}
+
+    </style>
